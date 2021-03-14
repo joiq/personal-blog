@@ -16,11 +16,15 @@ body {
     font-size: 1.4rem;
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     color: $textColor;
+    line-height: 1.5;
 }
 
 // Blocks
 @import "blocks/page.scss";
 @import "blocks/header.scss";
 @import "blocks/sidebar.scss";
+@import "blocks/profile.scss";
+@import "blocks/social.scss";
+@import "blocks/btn.scss";
 @import "blocks/main.scss";
 @import "blocks/container.scss";
